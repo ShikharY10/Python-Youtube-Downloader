@@ -60,7 +60,7 @@ main = Tk()
 main.title("Youtube Downloader")
 
 #setting the icon
-main.iconbitmap("C:\\Users\\acer\\Shikhar\\Projects\\Youtube_Downloader\\Images\\icon.ico")
+main.iconbitmap("\\Images\\icon.ico")
 
 #Setting the hight abd width of the window
 main.geometry("500x600")
@@ -68,7 +68,7 @@ main.geometry("500x600")
 #C:\Users\acer\Python\Projects\Youtube_Downloader
 
 #heading icon
-file = PhotoImage(file = "C:\\Users\\acer\\Shikhar\\Projects\\Youtube_Downloader\\Images\\download.png")
+file = PhotoImage(file = "\\Images\\download.png")
 headingIcon = Label(main,image = file)
 headingIcon.pack(side = TOP)
 
